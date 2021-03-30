@@ -1,0 +1,16 @@
+<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="New Stored User" Height="210" Width="333"
+        Background="Cornflowerblue">
+    <Grid>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="25,105,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="User name:" HorizontalAlignment="Left" Margin="25,75,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Supply Values for a new Stored Credential:" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Width="275"/>
+        <TextBox Name="Textbox_UserName" HorizontalAlignment="Left" Height="25" Margin="110,75,0,0" VerticalAlignment="Top" Width="190"/>
+        <PasswordBox Name="PasswordBox" HorizontalAlignment="Left" Height="25" Margin="110,105,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button Name="btn_SUBMIT" Content="Submit" HorizontalAlignment="Left" Margin="135,139,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="btn_CANCEL" Content="Cancel" HorizontalAlignment="Left" Margin="225,139,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
